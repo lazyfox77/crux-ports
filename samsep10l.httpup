@@ -1,0 +1,8 @@
+#
+# /etc/ports/samsep10l.httpup
+#
+
+ROOT_DIR=/usr/ports/samsep10l
+URL=https://raw.githubusercontent.com/lazyfox77/crux-ports/master/
+
+# End of file
