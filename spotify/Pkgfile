@@ -1,0 +1,32 @@
+# Description: A propietary music streaming service.
+# URL: http://www.spotify.com
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: nss gconf glib rtmpdump ffmpeg-compat pulseaudio
+# Optional: libnotify
+
+name=spotify
+version=1.1.42.622
+_commit=gbd112320
+_ver_x86_64=37
+_libcurl_ver=4.7.0
+release=1
+source=(http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${version}.${_commit}-${_ver_x86_64}_amd64.deb)
+
+build() {
+    ar -x $SRC/${name}-client_${version}.${_commit}-${_ver_x86_64}_amd64.deb
+    # I think that /opt is a good place for binary-only stuff.
+    install -d $PKG/opt/spotify
+
+    # Fix symlink for debian's libcurl-gnutls
+    install -d $PKG/opt/spotify/usr/lib
+    ln -s /usr/lib/libcurl.so.${_libcurl_ver} $PKG/opt/spotify/usr/lib/libcurl-gnutls.so.4
+
+    # Generate the directory structure in $PKG
+    install -d $PKG/usr
+    install -d $PKG/usr/bin
+    install -d $PKG/usr/lib
+
+    tar -xf $SRC/data.tar.gz -C $PKG/opt/spotify
+    ln -sf /opt/spotify/usr/bin/spotify $PKG/usr/bin/spotify
+    ln -sf /opt/spotify/usr/lib/libcurl-gnutls.so.4 $PKG/usr/lib/libcurl-gnutls.so.4
+}
