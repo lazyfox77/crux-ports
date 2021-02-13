@@ -1,0 +1,58 @@
+# Description: Anti-Grain Geometry (AGG) 2D graphic library.
+# URL: http://www.antigrain.com/
+# Maintainer: samsep10l
+# Packager: dark_bakura@protonmail.com
+# Depends on: libsdl xorg-libx11 freetype
+
+name=agg
+version=2.5
+release=1
+source=(http://ponce.cc/slackware/sources/repo/agg-2.5.tar.gz
+00001-agg-2.4-depends.patch
+00002-agg-2.5-pkgconfig.patch
+00003-agg-2.5-autotools.patch
+0001-Fix-non-terminating-loop-conditions-when-len-1.patch
+0002-Cure-recursion-by-aborting-if-the-co-ordinates-are-t.patch
+0003-Get-coordinates-from-previous-vertex-if-last-command.patch
+0004-Make-rasterizer_outline_aa-ignore-close_polygon-when.patch
+0005-Remove-VC-6-workaround.patch
+0006-Implement-grain-merge-blending-mode-GIMP.patch
+0007-Implement-grain-extract-blending-mode-GIMP.patch
+0008-Declare-multiplication-and-division-operators-as-con.patch
+0009-Add-a-static-identity-transformation.patch
+0010-Add-renderer_scanline_aa_alpha.patch
+0011-Avoid-division-by-zero-in-color-burn-mode.patch
+0012-Avoid-pixel-artifacts-when-compositing.patch
+0013-Modify-agg-conv-classes-to-allow-access-to-the-origi.patch
+0014-Avoid-potential-zero-division-resulting-in-nan-in-ag.patch
+0015-Ensure-first-value-in-the-gamma-table-is-always-zero.patch
+agg-2.4-depends.patch
+agg-2.5-autotools.patch
+agg-2.5-libtool.patch
+agg-2.5-pkgconfig.patch
+bad-const.patch
+)
+
+build() {
+	cd $name-$version
+
+	CXXFLAGS="${CXXFLAGS//-flto/}" LDFLAGS="${LDFLAGS//-flto/}"
+	#sed -i -e 's|AM_C_PROTOTYPES|#AM_C_PROTOTYPES|g' configure.in
+	
+	# http://www.hugovil.com/repository/hvlinux/patches/agg-2.5-libtool.patch
+	#patch -p 1 -i $SRC/agg-2.5-libtool.patch
+    #echo "SRC value: $SRC"
+    for f in $SRC/*.patch ; do
+        #echo "Applying patch: $f"
+        patch --batch -Np1 < $f || true
+    done
+
+	chmod u+x autogen.sh
+	./autogen.sh
+	./configure \
+        --prefix=/usr \
+        --with-x \
+        --disable-examples
+	make 
+	make DESTDIR=$PKG install
+}
