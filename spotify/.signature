@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/samsep10l.pub
-RWTPCqkVa80ceu+x8nayOeOajPmmnXdwr7tGJDwxhRE7U0yTnStLx7zqLqhA0vBXatbrbDTQju8Rp6uVDn7QGxKCSpMwguGVRw0=
+RWTPCqkVa80cep+5m63X+BmVp2XDDNnyV9uXk0ky7TCrOlJqPvP45QbFjMEE3LF8khGFCqMAAfXBi255G7X3ansPZsLp94ZSigo=
+SHA256 (Pkgfile) = b77c0d32d881efb2078d54e6026abc10b4c3baa73e20eccb3394de9d55e80a51
+SHA256 (.footprint) = bc18c8bfc9f97bae0de169562aadcf00bd8562591e6c93041fe0267699cae917
+SHA256 (spotify-client_1.1.42.622.gbd112320-37_amd64.deb) = 101a3699197659b8bc60a4fd8b579e63cc494e7abd089c45306559329af4a868

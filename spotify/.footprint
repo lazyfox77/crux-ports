@@ -158,3 +158,64 @@ drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/spotify -> /opt/spotify/usr/bin/spotify
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libcurl-gnutls.so.4 -> /opt/spotify/usr/lib/libcurl-gnutls.so.4
+drwxr-xr-x	root/root	usr/local/
+drwxr-xr-x	root/root	usr/local/share/
+drwxr-xr-x	root/root	usr/local/share/icons/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/128x128/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/128x128/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/128x128/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-128.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/16x16/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/16x16/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-16.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/22x22/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/22x22/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-22.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/24x24/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/24x24/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/24x24/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-24.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/256x256/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/256x256/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/256x256/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-256.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/32x32/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/32x32/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-32.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/48x48/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/48x48/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-48.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/512x512/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/512x512/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/512x512/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-512.png
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/64x64/
+drwxr-xr-x	root/root	usr/local/share/icons/hicolor/64x64/apps/
+lrwxrwxrwx	root/root	usr/local/share/icons/hicolor/64x64/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-64.png
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/128x128/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-128.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/16x16/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-16.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/22x22/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-22.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/24x24/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-24.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/256x256/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-256.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/32x32/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-32.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/48x48/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-48.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/512x512/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-512.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
+lrwxrwxrwx	root/root	usr/share/icons/hicolor/64x64/apps/spotify-client.png -> /opt/spotify/usr/share/spotify/icons/spotify-linux-64.png
