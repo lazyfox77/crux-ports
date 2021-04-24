@@ -1,7 +1,7 @@
 # Description: A propietary music streaming service.
 # URL: http://www.spotify.com
 # Maintainer: samsep10l at dark_bakura at protonmail dot com
-# Depends on: nss gconf glib rtmpdump ffmpeg-compat pulseaudio cups
+# Depends on: nss gconf glib rtmpdump ffmpeg-compat pulseaudio cups libxkbcommon
 # Optional: libnotify
 
 name=spotify
