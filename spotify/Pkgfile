@@ -5,15 +5,14 @@
 # Optional: libnotify
 
 name=spotify
-version=1.1.42.622
-_commit=gbd112320
-_ver_x86_64=37
+version=1.1.56.595
+_commit=g2d2da0de
 _libcurl_ver=4.7.0
-release=2
-source=(http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${version}.${_commit}-${_ver_x86_64}_amd64.deb)
+release=1
+source=(http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${version}.${_commit}_amd64.deb)
 
 build() {
-    ar -x $SRC/${name}-client_${version}.${_commit}-${_ver_x86_64}_amd64.deb
+    ar -x $SRC/${name}-client_${version}.${_commit}_amd64.deb
     ## I think that /opt is a good place for binary-only stuff.
     install -d $PKG/opt/spotify
 
