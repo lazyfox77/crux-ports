@@ -1,5 +1,6 @@
 d:agg
 d:spotify
+d:fluxbox
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
 f:46d6005069691a546b620a590b46ab88:agg/.footprint
 f:3557034e4820886997fb3f4133974223:agg/.md5sum
@@ -34,3 +35,6 @@ f:ab4e36585f1359da7787b826e66c7003:spotify/.footprint
 f:ebbdccda94700ffc4a59d746bd9f79a8:spotify/.md5sum
 f:0f6c18d48dea5a9f86da17c06a9d424c:spotify/.signature
 f:2fd20966da3a4237c3264c95c2986302:spotify/Pkgfile
+f:e6f46253b7701bfbedc2a2a471478e13:fluxbox/Pkgfile
+f:5fd806bb25563d273e8a7abaeb31c1a1:fluxbox/.md5sum
+f:3e58f96277bfa2e25c11a314e738f482:fluxbox/.footprint
