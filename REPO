@@ -1,7 +1,9 @@
 d:mhash
 d:spotify
+d:rxvt-unicode
 d:steghide
 d:agg
+d:libptytty
 d:fluxbox
 f:f9145b68a71ae3a48ba3fb576af98307:mhash/.signature
 f:de3f346da941c8adcd92c6d11e2ecb5b:mhash/.footprint
@@ -12,6 +14,10 @@ f:0f6c18d48dea5a9f86da17c06a9d424c:spotify/.signature
 f:ab4e36585f1359da7787b826e66c7003:spotify/.footprint
 f:ee1657ae6dedbd0e078bc909b42cccfb:spotify/Pkgfile
 f:ebbdccda94700ffc4a59d746bd9f79a8:spotify/.md5sum
+f:c10e1b20c6e2ea333d3d5223df85a960:rxvt-unicode/.signature
+f:a7c852f18145057ab2cce734b973fbd9:rxvt-unicode/.footprint
+f:ef8249d544844f595a8d9617291f1a3c:rxvt-unicode/Pkgfile
+f:5eb651d13a13e45bbaa79cfca17276f0:rxvt-unicode/.md5sum
 f:513c80d31b88f37a8395b18e9aca1872:steghide/.signature
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
 f:1a41898125aa38dcc91db7ec91509cd1:steghide/.footprint
@@ -47,6 +53,12 @@ f:a3379eb9d88a0c1c5e08894db1ac902b:agg/agg-2.5-libtool.patch
 f:97d25ec4d0571e74324a433f2fe5d11d:agg/0004-Make-rasterizer_outline_aa-ignore-close_polygon-when.patch
 f:703351fc0af2d5e21ec3d67fcf112d0d:agg/0015-Ensure-first-value-in-the-gamma-table-is-always-zero.patch
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
+f:9d470b10144612ab6f5876e00952681d:libptytty/.signature
+f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
+f:9b5486f23a63289514e85a9e9e74c644:libptytty/Pkgfile
+f:69f70f088bf12e6304f8fe3c5b9ac46f:libptytty/libptytty#2.0-1.pkg.tar.gz
+f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
+f:2a7f3f3c0d3ef71902da745dc7959529:libptytty/libptytty-2.0.tar.gz
 f:3c95c96731abe625727f60262ca03d26:samsep10l.pub
 f:3e58f96277bfa2e25c11a314e738f482:fluxbox/.footprint
 f:e6f46253b7701bfbedc2a2a471478e13:fluxbox/Pkgfile
