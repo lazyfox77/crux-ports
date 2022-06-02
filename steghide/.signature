@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/crux-ports.pub
+RWTPCqkVa80cei0tGZx6Rq+DKW3IeJp/6edPZRacPQq1AlaOpucImEMWfGk0HyWklJtpcVhRYSU7F04TuVA7d1q7ZAfHd1RZ+wU=
+SHA256 (Pkgfile) = 37bde21946fadf1dc34e19eaaa44b0b7970d88318aab4c106882b305df7f3e5e
+SHA256 (.footprint) = 506c801c7ecb13dd4704866d440bb8085fa03d7c69ff8805d2e663083b6f08a6
+SHA256 (steghide-0.5.1.tar.gz) = 78069b7cfe9d1f5348ae43f918f06f91d783c2b3ff25af021e6a312cf541b47b
+SHA256 (constexpr_float_arguments_h.patch) = 6fcce3af9d2fb25f4436dcc658935e5ff2bfcda28f76e89f0bc5322d4659332e
+SHA256 (constexpr_float_progressoutput_h.patch) = 6c1a91824c0677132eaeb3ed4cd344cf413bedd35ea6ff4162c5ef27e4e3247b
+SHA256 (template_missing_header.patch) = 2d65e68e6d7be8488d6bc26ffc1e3f712cddc2fed294bcda267d4582bb8c311f
