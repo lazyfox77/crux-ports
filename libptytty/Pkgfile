@@ -1,0 +1,23 @@
+# Description: OS independent and secure pty/tty and utmp/wtmp/lastlog handling
+# URL: http://mhash.sourceforge.net/
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on:
+# Optional:
+
+name=libptytty
+version=2.0
+release=1
+source=(http://dist.schmorp.de/$name/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+    mkdir build ; cd build
+    cmake \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR=lib \
+        -DBUILD_SHARED_LIBS=ON \
+        ..
+
+    make
+    make DESTDIR=$PKG install
+}
