@@ -12,8 +12,9 @@ f:0f6c18d48dea5a9f86da17c06a9d424c:spotify/.signature
 f:ab4e36585f1359da7787b826e66c7003:spotify/.footprint
 f:ee1657ae6dedbd0e078bc909b42cccfb:spotify/Pkgfile
 f:ebbdccda94700ffc4a59d746bd9f79a8:spotify/.md5sum
+f:513c80d31b88f37a8395b18e9aca1872:steghide/.signature
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
-f:b8fe9f280954e60fa88722780f941ec2:steghide/.footprint
+f:1a41898125aa38dcc91db7ec91509cd1:steghide/.footprint
 f:c2ec1dfd24996e49df70ca1b88ffd222:steghide/Pkgfile
 f:b40c1865a3f8933d4a8e5795c94f9df1:steghide/constexpr_float_arguments_h.patch
 f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
