@@ -1,13 +1,13 @@
 # Description: A propietary music streaming service.
 # URL: http://www.spotify.com
 # Maintainer: samsep10l at dark_bakura at protonmail dot com
-# Depends on: nss gconf glib rtmpdump ffmpeg-compat pulseaudio cups libxkbcommon
-# Optional: libnotify
+# Depends on: nss gconf glib ffmpeg-compat pulseaudio cups libxkbcommon
+# Optional: libnotify rtmpdump
 
 name=spotify
-version=1.1.56.595
-_commit=g2d2da0de
-_libcurl_ver=4.7.0
+version=1.1.84.716
+_commit=gc5f8b819
+_libcurl_ver=4.8.0
 release=1
 source=(http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${version}.${_commit}_amd64.deb)
 
