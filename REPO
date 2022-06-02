@@ -2,8 +2,8 @@ d:mhash
 d:spotify
 d:agg
 d:fluxbox
-f:a78a1f6f03baeaab830ed2d9c5f96060:mhash/.signature
-f:f3e9c86d6975f187895a322eea4882b8:mhash/.footprint
+f:f9145b68a71ae3a48ba3fb576af98307:mhash/.signature
+f:de3f346da941c8adcd92c6d11e2ecb5b:mhash/.footprint
 f:d732df87e318f945568c509bdc003008:mhash/Pkgfile
 f:4c259740a50df8eacf6ac610d6a552bd:mhash/.md5sum
 f:05d77213d065c5daa327d644916a252d:samsep10l.httpup
