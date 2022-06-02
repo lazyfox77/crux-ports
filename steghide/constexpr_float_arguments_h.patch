@@ -1,0 +1,20 @@
+diff -crB a/src/Arguments.h b/src/Arguments.h
+*** a/src/Arguments.h	2019-03-04 10:08:51.974091650 +0100
+--- b/src/Arguments.h	2019-03-04 10:11:01.048231957 +0100
+***************
+*** 100,106 ****
+  	static const VERBOSITY	Default_Verbosity = NORMAL ;
+  	static const unsigned long	Default_Radius = 0 ; // there is no default radius for all file formats
+  	static const unsigned int	Max_Algorithm = 3 ;
+! 	static const float		Default_Goal = 100.0 ;
+  	static const DEBUGCOMMAND	Default_DebugCommand = NONE ;
+  	static const bool		Default_Check = false ;
+  	static const unsigned int	Default_DebugLevel = 0 ;
+--- 100,106 ----
+  	static const VERBOSITY	Default_Verbosity = NORMAL ;
+  	static const unsigned long	Default_Radius = 0 ; // there is no default radius for all file formats
+  	static const unsigned int	Max_Algorithm = 3 ;
+! 	static constexpr float		Default_Goal = 100.0 ;
+  	static const DEBUGCOMMAND	Default_DebugCommand = NONE ;
+  	static const bool		Default_Check = false ;
+  	static const unsigned int	Default_DebugLevel = 0 ;
