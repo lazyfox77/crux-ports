@@ -56,9 +56,7 @@ f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
 f:9d470b10144612ab6f5876e00952681d:libptytty/.signature
 f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
 f:9b5486f23a63289514e85a9e9e74c644:libptytty/Pkgfile
-f:69f70f088bf12e6304f8fe3c5b9ac46f:libptytty/libptytty#2.0-1.pkg.tar.gz
 f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
-f:2a7f3f3c0d3ef71902da745dc7959529:libptytty/libptytty-2.0.tar.gz
 f:3c95c96731abe625727f60262ca03d26:samsep10l.pub
 f:3e58f96277bfa2e25c11a314e738f482:fluxbox/.footprint
 f:e6f46253b7701bfbedc2a2a471478e13:fluxbox/Pkgfile
