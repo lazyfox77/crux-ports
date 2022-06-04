@@ -1,7 +1,7 @@
 # Description: qbittorrent is a torrent client using the libtorrent-rasterbar library (Qt5 version)
 # URL: https://www.qbittorrent.org
 # Maintainer: samsep10l at dark_bakura at protonmail dot com
-# Depends on: qt5 libtorrent-rasterbar
+# Depends on: cmake qt5 libtorrent-rasterbar
 # Optional:
 
 name=qbittorrent-qt5
