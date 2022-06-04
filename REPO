@@ -1,4 +1,5 @@
 d:spotify
+d:dislocker
 d:fluxbox
 d:qbittorrent-qt5
 d:cdrtools
@@ -10,6 +11,10 @@ d:agg
 f:b5638859dae3557d83fd2e5146922869:spotify/.md5sum
 f:024ece9f40031ba9c9b2de903e5222ec:spotify/.footprint
 f:ee1657ae6dedbd0e078bc909b42cccfb:spotify/Pkgfile
+f:c657e6f45be6e81b049c31170ef773d4:dislocker/.md5sum
+f:d415f493635f931391e3fac28a143ab6:dislocker/.signature
+f:02b0833cd7d10ed917a4d6a932d58b3b:dislocker/.footprint
+f:ad2e2a7c0e40c7638a4c56393e23c000:dislocker/Pkgfile
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
 f:5fd806bb25563d273e8a7abaeb31c1a1:fluxbox/.md5sum
 f:3e58f96277bfa2e25c11a314e738f482:fluxbox/.footprint
