@@ -1,6 +1,7 @@
 d:spotify
 d:fluxbox
 d:qbittorrent-qt5
+d:cdrtools
 d:steghide
 d:libptytty
 d:rxvt-unicode
@@ -17,6 +18,10 @@ f:3a1984578e6606dbd087b80874ea8e77:qbittorrent-qt5/.md5sum
 f:d415f493635f931391e3fac28a143ab6:qbittorrent-qt5/.signature
 f:a58704848b80df54e0f1ecaeb8bf0c55:qbittorrent-qt5/.footprint
 f:2004716f465c67ad4818c8bc784acbf4:qbittorrent-qt5/Pkgfile
+f:204917b84b1141536ed367f73b192c90:cdrtools/.md5sum
+f:d415f493635f931391e3fac28a143ab6:cdrtools/.signature
+f:4bcee792fc2cf1411fbfe5c6334afb55:cdrtools/.footprint
+f:e6a9551696cce532110edef78b7f771e:cdrtools/Pkgfile
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
 f:b40c1865a3f8933d4a8e5795c94f9df1:steghide/constexpr_float_arguments_h.patch
 f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
