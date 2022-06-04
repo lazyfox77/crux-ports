@@ -1,0 +1,30 @@
+# Description: qbittorrent is a torrent client using the libtorrent-rasterbar library (Qt5 version)
+# URL: https://www.qbittorrent.org
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: qt5 libtorrent-rasterbar
+# Optional:
+
+name=qbittorrent-qt5
+version=4.3.0
+release=1
+source=(https://github.com/qbittorrent/qBittorrent/archive/refs/tags/release-$version.tar.gz)
+
+build() {
+    ## This port uses an older release since the contrib/libtorrent-rasterbar it is outdated.
+    ## When the library gets a new release, I will update the port.
+    cd qBittorrent-release-$version
+
+    mkdir build ; cd build
+    cmake -G "Unix Makefiles" \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR:PATH=lib \
+        -DCMAKE_INSTALL_MANDIR=/usr/share/man \
+        -DCMAKE_INSTALL_DOCDIR=/usr/doc/qBittorrent-$version \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DGUI=ON \
+        -DSYSTEMD=OFF \
+        ..
+
+    make
+    make DESTDIR=$PKG install
+}
