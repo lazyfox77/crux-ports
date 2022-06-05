@@ -39,6 +39,7 @@ build() {
     ../wine-$version/configure \
         --prefix=/usr \
         --libdir=/usr/lib32 \
+        --with-wine64=../wine64 \
         --disable-tests
 
     make depend
