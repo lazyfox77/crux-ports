@@ -1,0 +1,47 @@
+# Description: WINE with more dependencies, staging patches and tests disabled at build time. Mono it is not included.
+# URL: https://winehq.org
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: openal openal-32 libsdl2 libsdl2-32 fontconfig-32 freeglut-32 vkd3d vkd3d-32 mingw-w64-gcc libgcrypt-32 vulkan-headers vulkan-loader vulkan-tools vulkan-loader-32 vulkan-tools-32 pulseaudio pulseaudio-32
+# Optional:
+
+name=wine-patched
+version=7.10
+release=1
+source=(https://dl.winehq.org/wine/source/7.x/wine-$version.tar.xz
+https://github.com/wine-staging/wine-staging/archive/v$version/wine-staging-$version.tar.gz
+)
+
+build() {
+    ## apply patches
+    cd wine-staging-$version
+    ./patches/patchinstall.sh DESTDIR=../wine-$version --all
+
+    cd ..
+
+    mkdir wine32 wine64
+    cd wine64
+    ../wine-$version/configure \
+        --prefix=/usr \
+        --libdir=/usr/lib \
+        --enable-win64 \
+        --disable-tests
+
+    make depend
+    make
+    make DESTDIR=$PKG install
+
+    cd ../wine32
+    CFLAGS="${CFLAGS} -m32"
+    CXXFLAGS="${CXXFLAGS} -m32"
+    LDLAGS="${LDFLAGS} -m32"
+    export PKG_CONFIG_PATH=/usr/lib32/pkgconfig
+
+    ../wine-$version/configure \
+        --prefix=/usr \
+        --libdir=/usr/lib32 \
+        --disable-tests
+
+    make depend
+    make
+    make DESTDIR=$PKG install
+}
