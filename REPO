@@ -3,9 +3,11 @@ d:dislocker
 d:fluxbox
 d:qbittorrent-qt5
 d:cdrtools
+d:openvpn
 d:steghide
 d:libptytty
 d:rxvt-unicode
+d:wine-patched
 d:mhash
 d:agg
 f:b5638859dae3557d83fd2e5146922869:spotify/.md5sum
@@ -27,6 +29,11 @@ f:204917b84b1141536ed367f73b192c90:cdrtools/.md5sum
 f:d415f493635f931391e3fac28a143ab6:cdrtools/.signature
 f:4bcee792fc2cf1411fbfe5c6334afb55:cdrtools/.footprint
 f:e6a9551696cce532110edef78b7f771e:cdrtools/Pkgfile
+f:fd23cf2db74e7cbccac1200ae75e1f0c:openvpn/.md5sum
+f:d415f493635f931391e3fac28a143ab6:openvpn/.signature
+f:b01692d55680454919d722af855f4e5d:openvpn/.footprint
+f:3632c1900f4c4c78c7c63cab69d0c989:openvpn/Pkgfile
+f:3c95c96731abe625727f60262ca03d26:crux-ports.pub
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
 f:b40c1865a3f8933d4a8e5795c94f9df1:steghide/constexpr_float_arguments_h.patch
 f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
@@ -44,6 +51,10 @@ f:c10e1b20c6e2ea333d3d5223df85a960:rxvt-unicode/.signature
 f:a7c852f18145057ab2cce734b973fbd9:rxvt-unicode/.footprint
 f:ef8249d544844f595a8d9617291f1a3c:rxvt-unicode/Pkgfile
 f:05d77213d065c5daa327d644916a252d:samsep10l.httpup
+f:7d7cb08c2f2532a27fbc163b70a6909f:wine-patched/.md5sum
+f:d415f493635f931391e3fac28a143ab6:wine-patched/.signature
+f:56ea50cd92bdb04dc619c3a39afbf411:wine-patched/.footprint
+f:7876575d56da32cdb8c8e8c0ae428155:wine-patched/Pkgfile
 f:4c259740a50df8eacf6ac610d6a552bd:mhash/.md5sum
 f:f9145b68a71ae3a48ba3fb576af98307:mhash/.signature
 f:de3f346da941c8adcd92c6d11e2ecb5b:mhash/.footprint
