@@ -6,7 +6,7 @@
 
 name=wine-patched
 version=7.10
-release=1
+release=2
 source=(https://dl.winehq.org/wine/source/7.x/wine-$version.tar.xz
 https://github.com/wine-staging/wine-staging/archive/v$version/wine-staging-$version.tar.gz
 )
