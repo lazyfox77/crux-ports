@@ -13,6 +13,10 @@ fluxbox.gcc11.patch
 
 build() {
     cd $name-$version
+
+    ## fix build.
+    patch -Np1 < $SRC/fluxbox.gcc11.patch
+
     ./configure \
         --prefix=/usr \
         --mandir=/usr/share/man \
