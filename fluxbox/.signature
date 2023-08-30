@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-ports.pub
+RWSdmleR6iBYqtMTXrtFOY/UdNlALgycKHXMeHY64ZYI3EdOacV/n9HKFAbpkzTyQyZQxW2Hf1nArzVgmBw5UESy8c5s1OELkQ8=
+SHA256 (Pkgfile) = b12307d2800e93cf934a03bceae50d77566ccfbdfadf1999f755bb2cbd911602
+SHA256 (fluxbox-1.3.7.tar.xz) = fc8c75fe94c54ed5a5dd3fd4a752109f8949d6df67a48e5b11a261403c382ec0
+SHA256 (fluxbox.gcc11.patch) = 4bc02fc507ae75a7134ac48da44b25fe71ee5223517b66739696292e8b120251
