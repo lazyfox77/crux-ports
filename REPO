@@ -18,9 +18,9 @@ f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
 f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
 f:9d470b10144612ab6f5876e00952681d:libptytty/.signature
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
-f:70b2181589afa40553cc029ad4e181dc:fluxbox/Pkgfile
+f:d0792b0651a386123995cd5277317a1d:fluxbox/Pkgfile
 f:9e3f580327e1d870de65673655b47b54:fluxbox/fluxbox.gcc11.patch
-f:78a809a88c049047d0b754448037a915:fluxbox/.signature
+f:b96578a1d82b11f0523d178884b3a39f:fluxbox/.signature
 f:3632c1900f4c4c78c7c63cab69d0c989:openvpn/Pkgfile
 f:fd23cf2db74e7cbccac1200ae75e1f0c:openvpn/.md5sum
 f:b01692d55680454919d722af855f4e5d:openvpn/.footprint
