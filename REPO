@@ -18,9 +18,9 @@ f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
 f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
 f:9d470b10144612ab6f5876e00952681d:libptytty/.signature
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
-f:c1386bddf48a11a05451726894bee464:fluxbox/Pkgfile
-f:5fd806bb25563d273e8a7abaeb31c1a1:fluxbox/.md5sum
-f:3e58f96277bfa2e25c11a314e738f482:fluxbox/.footprint
+f:70b2181589afa40553cc029ad4e181dc:fluxbox/Pkgfile
+f:9e3f580327e1d870de65673655b47b54:fluxbox/fluxbox.gcc11.patch
+f:78a809a88c049047d0b754448037a915:fluxbox/.signature
 f:3632c1900f4c4c78c7c63cab69d0c989:openvpn/Pkgfile
 f:fd23cf2db74e7cbccac1200ae75e1f0c:openvpn/.md5sum
 f:b01692d55680454919d722af855f4e5d:openvpn/.footprint
@@ -45,10 +45,7 @@ f:d415f493635f931391e3fac28a143ab6:dislocker/.signature
 f:b40c1865a3f8933d4a8e5795c94f9df1:steghide/constexpr_float_arguments_h.patch
 f:e505909d6971ff3ba1239df30ce157c4:steghide/template_missing_header.patch
 f:c2ec1dfd24996e49df70ca1b88ffd222:steghide/Pkgfile
-f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
-f:1a41898125aa38dcc91db7ec91509cd1:steghide/.footprint
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
-f:513c80d31b88f37a8395b18e9aca1872:steghide/.signature
 f:ef8249d544844f595a8d9617291f1a3c:rxvt-unicode/Pkgfile
 f:5eb651d13a13e45bbaa79cfca17276f0:rxvt-unicode/.md5sum
 f:a7c852f18145057ab2cce734b973fbd9:rxvt-unicode/.footprint
@@ -57,7 +54,7 @@ f:e6a9551696cce532110edef78b7f771e:cdrtools/Pkgfile
 f:204917b84b1141536ed367f73b192c90:cdrtools/.md5sum
 f:4bcee792fc2cf1411fbfe5c6334afb55:cdrtools/.footprint
 f:d415f493635f931391e3fac28a143ab6:cdrtools/.signature
-f:3c95c96731abe625727f60262ca03d26:crux-ports.pub
+f:84584295172a12bc2c30e2a39e760c3f:crux-ports.pub
 f:af7a447a4b0469cd263cf3e65a7464e6:agg/0005-Remove-VC-6-workaround.patch
 f:fb8f3902a39fcb1f065fc46b72567869:agg/0011-Avoid-division-by-zero-in-color-burn-mode.patch
 f:43a19a7b1564c591e56c8d09a0fd8da5:agg/agg-2.5-pkgconfig.patch
