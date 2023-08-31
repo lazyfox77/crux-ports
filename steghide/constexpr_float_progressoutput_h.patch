@@ -1,0 +1,20 @@
+diff -crB a/src/ProgressOutput.h b/src/ProgressOutput.h
+*** a/src/ProgressOutput.h	2019-03-04 10:15:23.989521641 +0100
+--- b/src/ProgressOutput.h	2019-03-04 10:18:52.044754264 +0100
+***************
+*** 64,70 ****
+  	 **/
+  	void done (float rate, float avgweight = NoAvgWeight) const ;
+  
+! 	static const float NoAvgWeight = -1.0 ;
+  
+  	protected:
+  	std::string vcompose (const char *msgfmt, va_list ap) const ;
+--- 64,70 ----
+  	 **/
+  	void done (float rate, float avgweight = NoAvgWeight) const ;
+  
+! 	static constexpr float NoAvgWeight = -1.0 ;
+  
+  	protected:
+  	std::string vcompose (const char *msgfmt, va_list ap) const ;
