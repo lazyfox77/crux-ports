@@ -1,0 +1,23 @@
+# Description: libpcap-ng is a library for Linux that makes using posix capabilities easy.
+# URL: https://github.com/stevegrubb/libcap-ng
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on:
+# Optional:
+
+name=libcap-ng
+version=0.8.3
+release=1
+source=(https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v${version}.tar.gz)
+
+build() {
+    cd $name-$version
+
+    ./autogen.sh
+    ./configure \
+        --prefix=/usr \
+        --libdir=/usr/lib \
+        --mandir=/usr/share/man
+
+    make
+    make DESTDIR=$PKG install-strip
+}
