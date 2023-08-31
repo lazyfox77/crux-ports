@@ -55,7 +55,7 @@ f:e6a9551696cce532110edef78b7f771e:cdrtools/Pkgfile
 f:204917b84b1141536ed367f73b192c90:cdrtools/.md5sum
 f:4bcee792fc2cf1411fbfe5c6334afb55:cdrtools/.footprint
 f:d415f493635f931391e3fac28a143ab6:cdrtools/.signature
-f:84584295172a12bc2c30e2a39e760c3f:crux-ports.pub
+f:84584295172a12bc2c30e2a39e760c3f:samsep10l.pub
 f:af7a447a4b0469cd263cf3e65a7464e6:agg/0005-Remove-VC-6-workaround.patch
 f:fb8f3902a39fcb1f065fc46b72567869:agg/0011-Avoid-division-by-zero-in-color-burn-mode.patch
 f:43a19a7b1564c591e56c8d09a0fd8da5:agg/agg-2.5-pkgconfig.patch
