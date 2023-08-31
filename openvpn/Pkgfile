@@ -1,0 +1,26 @@
+# Description: openvpn it is an opensource VPN client for Unix/Linux/Windows.
+# URL: https://github.com/OpenVPN/openvpn
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: openssl python3-docutils libcap-ng
+# Optional:
+
+name=openvpn
+version=2.6.6
+release=1
+source=(https://github.com/OpenVPN/openvpn/archive/refs/tags/v${version}.tar.gz)
+
+build() {
+    cd $name-$version
+
+    autoreconf -ifv .
+    ./configure \
+        --prefix=/usr \
+        --libdir=/usr/lib \
+        --mandir=/usr/share/man \
+        --disable-plugin-auth-pam \
+        --disable-unit-tests \
+        --disable-lz4
+
+    make
+    make DESTDIR=$PKG install-strip
+}

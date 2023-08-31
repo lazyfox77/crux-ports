@@ -8,7 +8,10 @@ f:9e3f580327e1d870de65673655b47b54:fluxbox/fix-gcc11.patch
 f:92c3fa8eab9002d63e1dafc1b1b1bfe0:fluxbox/.md5sum
 f:333dcd72db5d3243122e7330982a1aad:fluxbox/.footprint
 f:f9abc70f1d15474993c323703b62e9a9:fluxbox/.signature
-f:54972d6c8b03d933cf59e8f2ef8f94e7:openvpn/Pkgfile
+f:1e07a2e8164f64fca88614ebf23d3450:openvpn/Pkgfile
+f:f5ce87bb92bedd3eda95289785237dee:openvpn/.md5sum
+f:45616a5407acd6e8897b2ce7c567a7f2:openvpn/.footprint
+f:f9abc70f1d15474993c323703b62e9a9:openvpn/.signature
 f:598e3e7b19df9c529d14479fb40a76de:libcap-ng/Pkgfile
 f:1d282e90fd39f55c5fb2cb5ab184b7bd:libcap-ng/.md5sum
 f:86efe34476080b7ec7a1f606da4e8782:libcap-ng/.footprint
