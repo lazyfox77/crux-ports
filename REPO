@@ -1,4 +1,5 @@
 d:fluxbox
+d:steghide
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
 f:74e19c7bf0397744c2ee03ac0f4f06f2:fluxbox/Pkgfile
 f:9e3f580327e1d870de65673655b47b54:fluxbox/fix-gcc11.patch
@@ -6,4 +7,11 @@ f:92c3fa8eab9002d63e1dafc1b1b1bfe0:fluxbox/.md5sum
 f:333dcd72db5d3243122e7330982a1aad:fluxbox/.footprint
 f:f9abc70f1d15474993c323703b62e9a9:fluxbox/.signature
 f:05d77213d065c5daa327d644916a252d:samsep10l.httpup
+f:b40c1865a3f8933d4a8e5795c94f9df1:steghide/constexpr_float_arguments_h.patch
+f:e505909d6971ff3ba1239df30ce157c4:steghide/template_missing_header.patch
+f:e933b287be9a4869f2af017f4923a4c0:steghide/Pkgfile
+f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
+f:1a41898125aa38dcc91db7ec91509cd1:steghide/.footprint
+f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
+f:f9abc70f1d15474993c323703b62e9a9:steghide/.signature
 f:796122561036d55b152305eb8e2b10ba:crux-ports.pub

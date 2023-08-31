@@ -1,7 +1,7 @@
 # Description: steghide is a steganography tool to hide data in audio files.
 # URL: http://steghide.sourceforge.net
 # Maintainer: samsep10l at dark_bakura at protonmail dot com
-# Depends on: libmcrypt mhash libjpeg-turbo zlib
+# Depends on: bash libmcrypt mhash libjpeg-turbo zlib
 # Optional:
 
 name=steghide
@@ -21,6 +21,11 @@ build() {
         patch -Np1 < $f 
     ) ; done
 
+
+    ## 2023-08-31: needs to force the bash shell in configure, as dash throws
+    ## an error with libtool.
+    ## I set bash as hard requirement, even if it is in the core repo.
+    CONFIG_SHELL=/bin/bash \
     ./configure \
         --prefix=/usr \
         --libdir=/usr/lib \
