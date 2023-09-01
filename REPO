@@ -2,6 +2,7 @@ d:fluxbox
 d:openvpn
 d:libcap-ng
 d:steghide
+d:cdrtools
 f:81a9e03e21d15c9ad83fa57cbf15bfd9:README.md
 f:74e19c7bf0397744c2ee03ac0f4f06f2:fluxbox/Pkgfile
 f:9e3f580327e1d870de65673655b47b54:fluxbox/fix-gcc11.patch
@@ -24,4 +25,8 @@ f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
 f:1a41898125aa38dcc91db7ec91509cd1:steghide/.footprint
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
 f:f9abc70f1d15474993c323703b62e9a9:steghide/.signature
+f:fe06f763a4880876d68c14621b3604c5:cdrtools/Pkgfile
+f:204917b84b1141536ed367f73b192c90:cdrtools/.md5sum
+f:76a6e97a3377bcf0c0a695394ade45c1:cdrtools/.footprint
+f:f9abc70f1d15474993c323703b62e9a9:cdrtools/.signature
 f:796122561036d55b152305eb8e2b10ba:crux-ports.pub
