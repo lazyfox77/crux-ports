@@ -1,0 +1,32 @@
+# Description: winpthreads for mingw-w64 toolchain
+# URL: http://mingw-w64.org/
+# Maintainer: samsep10l dark_bakura at protonmail dot com
+# Depends on: mingw-w64-wdl mingw-w64-gcc
+
+name=mingw-w64-winpthreads
+version=11.0.1
+release=1
+source=(https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v$version.tar.bz2)
+
+build() {
+	for T in {i686,x86_64}-w64-mingw32; do
+        mkdir build-$T
+        cd build-$T
+
+        AR=${T}-ar \
+        ../mingw-w64-v$version/mingw-w64-libraries/winpthreads/configure \
+            --prefix=/usr/$T \
+            --host=$T
+
+        make DESTDIR=$PKG install
+
+        ## remove already installed headers.
+        rm $PKG/usr/$T/include/pthread_{signal,time,unistd}.h
+
+        cd ..
+    done
+
+    ## it seems this is not neccessary.
+	#ln -sv x86_64-w64-mingw32 $PKG/usr/mingw
+	#ln -sv lib $PKG/usr/x86_64-w64-mingw32/lib64
+}
