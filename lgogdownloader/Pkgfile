@@ -1,0 +1,18 @@
+# Description: lgogdownloader is a tool to download files from GOG.com.
+# URL: https://github.com/Sude-/lgogdownloader/releases/tag/v3.11
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: curl zlib boost rhash jsoncpp htmlcxx tinyxml2
+# Optional:
+
+name=lgogdownloader
+version=3.11
+release=1
+source=(
+https://github.com/Sude-/lgogdownloader/archive/refs/tags/v3.11.tar.gz
+)
+
+build() {
+    cd $name-$version
+
+    
+}

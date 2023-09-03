@@ -1,0 +1,25 @@
+# Description: htmlcxx is a simple non-validating css1 and html parser for C++.
+# URL: 
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on:
+# Optional:
+
+name=htmlcxx
+version=0.87
+release=1
+source=(
+http://sourceforge.net/projects/htmlcxx/files/v0.87/htmlcxx-${version}.tar.gz
+)
+
+build() {
+    cd $name-$version
+
+    CXXFLAGS="-std=c++14" \
+    ./configure \
+        --prefix=/usr \
+        --mandir=/usr/share/man \
+        --docdir=/usr/share/doc/${name}-${version}
+
+    make
+    make DESTDIR=$PKG install-strip
+}

@@ -1,0 +1,39 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/htmlcxx
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/htmlcxx/
+drwxr-xr-x	root/root	usr/include/htmlcxx/css/
+-rw-r--r--	root/root	usr/include/htmlcxx/css/parser.h
+-rw-r--r--	root/root	usr/include/htmlcxx/css/parser_pp.h
+drwxr-xr-x	root/root	usr/include/htmlcxx/html/
+-rw-r--r--	root/root	usr/include/htmlcxx/html/CharsetConverter.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/Extensions.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/Node.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/ParserDom.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/ParserSax.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/ParserSax.tcc
+-rw-r--r--	root/root	usr/include/htmlcxx/html/Uri.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/ci_string.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/tld.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/tree.h
+-rw-r--r--	root/root	usr/include/htmlcxx/html/utils.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libcss_parser.la
+lrwxrwxrwx	root/root	usr/lib/libcss_parser.so -> libcss_parser.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libcss_parser.so.0 -> libcss_parser.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libcss_parser.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libcss_parser_pp.la
+lrwxrwxrwx	root/root	usr/lib/libcss_parser_pp.so -> libcss_parser_pp.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libcss_parser_pp.so.0 -> libcss_parser_pp.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libcss_parser_pp.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libhtmlcxx.la
+lrwxrwxrwx	root/root	usr/lib/libhtmlcxx.so -> libhtmlcxx.so.3.1.0
+lrwxrwxrwx	root/root	usr/lib/libhtmlcxx.so.3 -> libhtmlcxx.so.3.1.0
+-rwxr-xr-x	root/root	usr/lib/libhtmlcxx.so.3.1.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/htmlcxx.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/htmlcxx/
+drwxr-xr-x	root/root	usr/share/htmlcxx/css/
+-rw-r--r--	root/root	usr/share/htmlcxx/css/default.css
