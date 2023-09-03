@@ -1,5 +1,5 @@
 # Description: lgogdownloader is a tool to download files from GOG.com.
-# URL: https://github.com/Sude-/lgogdownloader/releases/tag/v3.11
+# URL: https://github.com/Sude-/lgogdownloader
 # Maintainer: samsep10l at dark_bakura at protonmail dot com
 # Depends on: curl zlib boost rhash jsoncpp htmlcxx tinyxml2
 # Optional:
@@ -14,5 +14,13 @@ https://github.com/Sude-/lgogdownloader/archive/refs/tags/v3.11.tar.gz
 build() {
     cd $name-$version
 
-    
+    mkdir cmake-build ; cd cmake-build    
+    cmake \
+        -DCMAKE_INSTALL_PREFIX="/usr" \
+        -DCMAKE_INSTALL_LIBDIR="lib" \
+        -DCMAKE_BUILD_TYPE=Release \
+        ..
+
+    make
+    make DESTDIR=$PKG install
 }
