@@ -2,39 +2,46 @@
 # URL: https://github.com/pcsxr
 # Maintainer: samsep10l at dark_bakura at protonmail dot com
 # Depends on: gtk libcdio harfbuzz
-# Optional:
+# Optional: openal pulseaudio
 
 name=pcsxr
 version=1.9.95
-release=1
+release=3
 source=(
 https://github.com/frealgagu/PCSX-Reloaded/archive/${version}/PCSX-Reloaded-${version}.tar.gz
 01-pcsxr-fix-uncompress2.patch
 02-pcsxr-fix-undefined-operations.patch
 03-pcsxr-remove-assertion-64bit.patch
 04-add_missing_gte_shift_declaration_in_gte_h.patch
+05-remove_assert_in_ix86_64.patch
 )
 
 build() {
     cd PCSX-Reloaded-$version
 
     ## apply patches.
-    for f in $SRC/*.patch ; do
-        patch -Np1 < $f 
-    done
+    patch -Np1 < $SRC/01-pcsxr-fix-uncompress2.patch
+    patch -Np1 < $SRC/02-pcsxr-fix-undefined-operations.patch
+    patch -Np1 < $SRC/03-pcsxr-remove-assertion-64bit.patch
+    patch -Np1 < $SRC/04-add_missing_gte_shift_declaration_in_gte_h.patch
+    #patch -Np1 < $SRC/05-remove_assert_in_ix86_64.patch
+
 
     cd $name
 
     sh autogen.sh
     intltoolize --force
 
+    ## --enable-sound supported audio backends:
+    ## alsa, null, oss, pulseaudio, sdl, openal
     CFLAGS="-fcommon -I/usr/include/harfbuzz" \
     ./configure \
         --prefix=/usr \
         --mandir=/usr/share/man \
         --enable-opengl \
         --enable-libcdio \
-        --disable-nls
+        --disable-nls \
+        --enable-sound=alsa
 
     make
     make DESTDIR=$PKG install

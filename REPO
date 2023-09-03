@@ -25,9 +25,10 @@ f:1d282e90fd39f55c5fb2cb5ab184b7bd:libcap-ng/.md5sum
 f:86efe34476080b7ec7a1f606da4e8782:libcap-ng/.footprint
 f:f9abc70f1d15474993c323703b62e9a9:libcap-ng/.signature
 f:05d77213d065c5daa327d644916a252d:samsep10l.httpup
-f:39283a097b724f48e3e3a4d6bbee665c:pcsxr/Pkgfile
+f:3f8eeacca0973b5146db899d579c8b62:pcsxr/Pkgfile
+f:b9a14e6d963e4476ab2249f0fbb22fd5:pcsxr/05-remove_assert_in_ix86_64.patch
 f:96a82dcc66851160f452160a538cd6f8:pcsxr/02-pcsxr-fix-undefined-operations.patch
-f:2f6c720b8c130bca400838fdcf475771:pcsxr/.md5sum
+f:b824dca9ce25e1e763532cb52f221429:pcsxr/.md5sum
 f:8b22b878dc6c19b99327c054d7d632c2:pcsxr/.footprint
 f:09161be6bf8786f5d977b61f20d6926c:pcsxr/01-pcsxr-fix-uncompress2.patch
 f:f9abc70f1d15474993c323703b62e9a9:pcsxr/.signature
