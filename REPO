@@ -1,6 +1,7 @@
 d:fluxbox
 d:openvpn
 d:libcap-ng
+d:pcsxr
 d:tinyxml2
 d:lgogdownloader
 d:snes9x
@@ -24,6 +25,14 @@ f:1d282e90fd39f55c5fb2cb5ab184b7bd:libcap-ng/.md5sum
 f:86efe34476080b7ec7a1f606da4e8782:libcap-ng/.footprint
 f:f9abc70f1d15474993c323703b62e9a9:libcap-ng/.signature
 f:05d77213d065c5daa327d644916a252d:samsep10l.httpup
+f:39283a097b724f48e3e3a4d6bbee665c:pcsxr/Pkgfile
+f:96a82dcc66851160f452160a538cd6f8:pcsxr/02-pcsxr-fix-undefined-operations.patch
+f:2f6c720b8c130bca400838fdcf475771:pcsxr/.md5sum
+f:8b22b878dc6c19b99327c054d7d632c2:pcsxr/.footprint
+f:09161be6bf8786f5d977b61f20d6926c:pcsxr/01-pcsxr-fix-uncompress2.patch
+f:f9abc70f1d15474993c323703b62e9a9:pcsxr/.signature
+f:c3ed7fc2a5e395a11f860c305522cb7b:pcsxr/03-pcsxr-remove-assertion-64bit.patch
+f:7e8f618b626909271e18943e9c5478a6:pcsxr/04-add_missing_gte_shift_declaration_in_gte_h.patch
 f:86279360b06e9e317ebcdbb0a5024acb:tinyxml2/Pkgfile
 f:9f56acc31119cde1bcdb58285e98acf9:tinyxml2/.md5sum
 f:2a31665e4c6329db210c1046ab8d5b97:tinyxml2/.footprint
