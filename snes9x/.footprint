@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/snes9x/
+-rw-r--r--	root/root	etc/snes9x/snes9x.conf.default
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/snes9x
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/doc/
+drwxr-xr-x	root/root	usr/share/doc/snes9x/
+-rw-r--r--	root/root	usr/share/doc/snes9x/LICENSE
+-rw-r--r--	root/root	usr/share/doc/snes9x/control-inputs.txt
+-rw-r--r--	root/root	usr/share/doc/snes9x/controls.txt
+-rw-r--r--	root/root	usr/share/doc/snes9x/snapshots.txt

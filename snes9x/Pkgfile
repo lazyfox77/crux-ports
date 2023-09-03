@@ -1,0 +1,33 @@
+# Description: snes9x is a Super Nintendo Entertainment System emulator.
+# URL: https://www.snes9x.com/
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on:
+# Optional:
+
+name=snes9x
+version=1.62.3
+release=1
+source=(
+https://github.com/snes9xgit/snes9x/archive/refs/tags/1.62.3.tar.gz
+)
+
+build() {
+    cd $name-$version
+
+    cd ./unix
+    autoreconf -ifv
+
+    ./configure \
+        --prefix=/usr \
+        --mandir=/usr/share/man
+
+    make
+    install -Dm 755 snes9x -t $PKG/usr/bin/
+    install -Dm 644 snes9x.conf.default $PKG/etc/snes9x/snes9x.conf.default
+
+    ## install doc.
+    cd ..
+    install -Dm 644 docs/{control-inputs.txt,controls.txt,snapshots.txt} \
+        -t $PKG/usr/share/doc/snes9x/
+    install -Dm 644 LICENSE $PKG/usr/share/doc/snes9x/
+}
