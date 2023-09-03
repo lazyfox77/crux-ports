@@ -2,7 +2,6 @@ d:fluxbox
 d:openvpn
 d:libcap-ng
 d:tinyxml2
-d:lgogdownloader
 d:snes9x
 d:mingw-w64-widl
 d:steghide
@@ -28,7 +27,6 @@ f:86279360b06e9e317ebcdbb0a5024acb:tinyxml2/Pkgfile
 f:9f56acc31119cde1bcdb58285e98acf9:tinyxml2/.md5sum
 f:2a31665e4c6329db210c1046ab8d5b97:tinyxml2/.footprint
 f:f9abc70f1d15474993c323703b62e9a9:tinyxml2/.signature
-f:35459a4e776abf814fa6bcf4c8d4e930:lgogdownloader/Pkgfile
 f:67b9ae93194d4f983fe705c6b3a431c7:snes9x/Pkgfile
 f:0354aa3b110a6514ed7cdfd717d39ceb:snes9x/.md5sum
 f:8fa3327ce41108b0c2276b7495f9ccc6:snes9x/.footprint
