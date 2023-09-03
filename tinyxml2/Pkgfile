@@ -1,0 +1,26 @@
+# Description: tinyxml2 is a simple, samll, efficient, C++ XML parser.
+# URL: https://github.com/leethomason/tinyxml2
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: clang cmake
+# Optional:
+
+name=tinyxml2
+version=9.0.0
+release=1
+source=(
+https://github.com/leethomason/tinyxml2/archive/refs/tags/${version}.tar.gz
+)
+
+build() {
+    cd $name-$version
+
+    mkdir cmake-build; cd cmake-build
+    cmake -G "Unix Makefiles" \
+        -DCMAKE_INSTALL_PREFIX="/usr" \
+        -DCMAKE_INSTALL_LIBDIR="lib" \
+        -DCMAKE_BUILD_TYPE=Release \
+        ..
+
+    make
+    make DESTDIR=$PKG install
+}
