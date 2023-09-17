@@ -1,0 +1,29 @@
+# Description: virt-viewer is an application to connect to libvirt VMs.
+# URL: https://virt-manager.org/download
+# Maintainer: samsep10l at dark_bakura at protonmail dot com
+# Depends on: meson ninja gtk-vnc
+# Optional:
+
+name=virt-viewer
+version=11.0
+release=1
+source=(
+https://releases.pagure.org/virt-viewer/${name}-${version}.tar.xz
+00_meson_build_fix.patch
+)
+
+build() {
+    cd $name-$version
+
+    ## Apply build fixes.
+    patch -p1 < $SRC/00_meson_build_fix.patch
+
+    mkdir builddir ; cd builddir
+    meson setup \
+        --prefix /usr \
+        --buildtype=release \
+        ..
+
+    ninja 
+    DESTDIR=$PKG ninja install
+}

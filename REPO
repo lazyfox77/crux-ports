@@ -7,6 +7,7 @@ d:lgogdownloader
 d:snes9x
 d:mingw-w64-widl
 d:steghide
+d:virt-viewer
 d:mingw-w64-winpthreads
 d:htmlcxx
 d:cdrtools
@@ -57,6 +58,11 @@ f:2275556aca6b7f33275f18d8bc3602e7:steghide/.md5sum
 f:1a41898125aa38dcc91db7ec91509cd1:steghide/.footprint
 f:d900128d8bf64850184b6698bf778e2f:steghide/constexpr_float_progressoutput_h.patch
 f:f9abc70f1d15474993c323703b62e9a9:steghide/.signature
+f:5f45b1f7202950767fb31128073b2cd2:virt-viewer/Pkgfile
+f:7335375b2e7c51bc2d6c654df61b484b:virt-viewer/.md5sum
+f:17a04ea591546830e0f111aef656fd92:virt-viewer/00_meson_build_fix.patch
+f:519cce93fcbaa4072629110b2a110b17:virt-viewer/.footprint
+f:f9abc70f1d15474993c323703b62e9a9:virt-viewer/.signature
 f:7e1a311e6436f17833bda596ae03a60f:mingw-w64-winpthreads/Pkgfile
 f:44ae64779e784985d1279390cd512edf:mingw-w64-winpthreads/.md5sum
 f:cfb8c32f3c7fd17839f853a9480af1e3:mingw-w64-winpthreads/.footprint
